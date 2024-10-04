@@ -28,8 +28,8 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
         "Accept-Language": "en-US,en;q=0.9,fr;q=0.8",
         "Referer": "www.google.com",
     }
-os.system('espeak -a 300 " Welcome,   to,  DEVI ,    Tools  ,  "')
-    logos = [
+    
+logos = [
         r'''
 
 
