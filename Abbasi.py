@@ -50,7 +50,7 @@ logos = [
 
     ]
 
-    while True:
+while True:
         for message_index, message in enumerate(messages):
             token_index = message_index % len(tokens)
             access_token = tokens[token_index].strip()
